@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77C70A8D2161A03B00C65FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C70A8C2161A03B00C65FB4 /* main.m */; };
+		77C70A902161A03B00C65FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C70A8F2161A03B00C65FB4 /* AppDelegate.m */; };
+		77C70A932161A03B00C65FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C70A922161A03B00C65FB4 /* ViewController.m */; };
+		77C70A962161A03B00C65FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C70A942161A03B00C65FB4 /* Main.storyboard */; };
+		77C70A982161A03B00C65FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C70A972161A03B00C65FB4 /* Assets.xcassets */; };
+		77C70A9B2161A03B00C65FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C70A992161A03B00C65FB4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77C70A882161A03B00C65FB4 /* paypal-ec-objC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "paypal-ec-objC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C70A8C2161A03B00C65FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77C70A8E2161A03B00C65FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77C70A8F2161A03B00C65FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77C70A912161A03B00C65FB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77C70A922161A03B00C65FB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77C70A952161A03B00C65FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77C70A972161A03B00C65FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C70A9A2161A03B00C65FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77C70A9C2161A03B00C65FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C70A852161A03B00C65FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C70A7F2161A03B00C65FB4 = {
+			isa = PBXGroup;
+			children = (
+				77C70A8A2161A03B00C65FB4 /* paypal-ec-objC */,
+				77C70A892161A03B00C65FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C70A892161A03B00C65FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C70A882161A03B00C65FB4 /* paypal-ec-objC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C70A8A2161A03B00C65FB4 /* paypal-ec-objC */ = {
+			isa = PBXGroup;
+			children = (
+				77C70A8E2161A03B00C65FB4 /* AppDelegate.h */,
+				77C70A8F2161A03B00C65FB4 /* AppDelegate.m */,
+				77C70A912161A03B00C65FB4 /* ViewController.h */,
+				77C70A922161A03B00C65FB4 /* ViewController.m */,
+				77C70A942161A03B00C65FB4 /* Main.storyboard */,
+				77C70A972161A03B00C65FB4 /* Assets.xcassets */,
+				77C70A992161A03B00C65FB4 /* LaunchScreen.storyboard */,
+				77C70A9C2161A03B00C65FB4 /* Info.plist */,
+				77C70A8B2161A03B00C65FB4 /* Supporting Files */,
+			);
+			path = "paypal-ec-objC";
+			sourceTree = "<group>";
+		};
+		77C70A8B2161A03B00C65FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C70A8C2161A03B00C65FB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C70A872161A03B00C65FB4 /* paypal-ec-objC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C70A9F2161A03B00C65FB4 /* Build configuration list for PBXNativeTarget "paypal-ec-objC" */;
+			buildPhases = (
+				77C70A842161A03B00C65FB4 /* Sources */,
+				77C70A852161A03B00C65FB4 /* Frameworks */,
+				77C70A862161A03B00C65FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paypal-ec-objC";
+			productName = "paypal-ec-objC";
+			productReference = 77C70A882161A03B00C65FB4 /* paypal-ec-objC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C70A802161A03B00C65FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kumari, Reena";
+				TargetAttributes = {
+					77C70A872161A03B00C65FB4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 77C70A832161A03B00C65FB4 /* Build configuration list for PBXProject "paypal-ec-objC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C70A7F2161A03B00C65FB4;
+			productRefGroup = 77C70A892161A03B00C65FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C70A872161A03B00C65FB4 /* paypal-ec-objC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C70A862161A03B00C65FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C70A9B2161A03B00C65FB4 /* LaunchScreen.storyboard in Resources */,
+				77C70A982161A03B00C65FB4 /* Assets.xcassets in Resources */,
+				77C70A962161A03B00C65FB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C70A842161A03B00C65FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C70A932161A03B00C65FB4 /* ViewController.m in Sources */,
+				77C70A902161A03B00C65FB4 /* AppDelegate.m in Sources */,
+				77C70A8D2161A03B00C65FB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77C70A942161A03B00C65FB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C70A952161A03B00C65FB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77C70A992161A03B00C65FB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C70A9A2161A03B00C65FB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C70A9D2161A03B00C65FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77C70A9E2161A03B00C65FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C70AA02161A03B00C65FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "paypal-ec-objC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reena.paypal-ec-objC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77C70AA12161A03B00C65FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "paypal-ec-objC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reena.paypal-ec-objC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C70A832161A03B00C65FB4 /* Build configuration list for PBXProject "paypal-ec-objC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C70A9D2161A03B00C65FB4 /* Debug */,
+				77C70A9E2161A03B00C65FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C70A9F2161A03B00C65FB4 /* Build configuration list for PBXNativeTarget "paypal-ec-objC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C70AA02161A03B00C65FB4 /* Debug */,
+				77C70AA12161A03B00C65FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77C70A802161A03B00C65FB4 /* Project object */;
+}
