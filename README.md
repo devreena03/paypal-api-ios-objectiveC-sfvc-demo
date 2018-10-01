@@ -1,4 +1,4 @@
-# PayPal_ECAPI_iOS_Swift_SVC_Demo
+# PayPal_ECAPI_iOS_ObjectiveC_SVC_Demo
 PayPal express checkout API integration sample code in iOS with Objective C and Safari view controller
 
 Assumption:
