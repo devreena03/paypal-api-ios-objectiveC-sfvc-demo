@@ -1,8 +1,8 @@
-# PayPal_ECAPI_iOS_ObjectiveC_SVC_Demo
-PayPal express checkout API integration sample code in iOS with Objective C and Safari view controller
+# PayPal_OrderV2_iOS_ObjectiveC_SVC_Demo
+PayPal Order V2 API integration sample code in iOS with Objective C and Safari view controller
 
 Assumption:
-Sample code has build on, iOS 10.2 and xCode 8.3.2 and tested on xCode inbuilt simulators.
+Sample code has build on, iOS 12.1 and xCode 10.1 and tested on xCode inbuilt simulators.
 
 >Clone the iOS app repository to your local machine 
 
@@ -17,7 +17,7 @@ Sample code has build on, iOS 10.2 and xCode 8.3.2 and tested on xCode inbuilt s
 
 >This source code is deployed in Heroku, https://paypal-ec-server.herokuapp.com/
 
->If you like to use your own server please change the base_url in ec-rest/ViewController.swift
+>If you like to use your own server please change the base_url in orderv2/ViewController.m
 
 
 ##### Screencast
