@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,6 +15,53 @@
 
 @implementation AppDelegate
 
+- (BOOL) application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+   
+    NSDictionary *queryParams = [self parseQueryString:[url query]];
+    NSLog(@"query queryParams: %@", queryParams);
+    ViewController *viewController = [self getViewControllerInstance];
+    
+    if([[url host] isEqual:@"success"]){
+        NSLog(@"success");
+        [viewController success: queryParams[@"token"]];
+        return YES;
+    }
+    if([[url host] isEqual:@"cancel"]){
+        NSLog(@"cancel");
+        [viewController cancel: queryParams[@"token"]];
+        return YES;
+    }
+    if([[url host] isEqual:@"error"]){
+        NSLog(@"error");
+        [viewController error: queryParams[@"token"]];
+        return YES;
+    }
+    return NO;
+    
+}
+- (ViewController *) getViewControllerInstance {
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
+                                                             bundle: nil];
+    
+    ViewController *controller = (ViewController*)[mainStoryboard
+                                                   instantiateViewControllerWithIdentifier: @"mainView"];
+    //self.window = UIWindow(frame: UIScreen.main.bounds)
+    self.window.rootViewController = controller;
+    [self.window makeKeyAndVisible];
+    return controller;
+}
+
+
+- (NSDictionary *)parseQueryString:(NSString *)query {
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithCapacity:6];
+    NSArray *pairs = [query componentsSeparatedByString:@"&"];
+    
+    for (NSString *pair in pairs) {
+        NSArray *elements = [pair componentsSeparatedByString:@"="];
+        [dictionary setObject:[elements objectAtIndex:1] forKey:[elements objectAtIndex:0]];
+    }
+    return dictionary;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
