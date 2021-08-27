@@ -1,4 +1,4 @@
-# PayPal_OrderV2_iOS_ObjectiveC_SVC_Demo
+# PayPal OrderV2 iOS ObjectiveC SVC Demo
 PayPal Order V2 API integration sample code in iOS with Objective C and Safari view controller
 
 Assumption:
